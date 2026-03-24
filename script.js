@@ -46,7 +46,7 @@ function startGame() {
     }
   }, 1000);
 
-  dropMaker = setInterval(createDrop, 1000);
+  dropMaker = setInterval(createDrop, 500);
 }
 
 function resetGame() {
